@@ -2,13 +2,13 @@ import React from "react";
 import { View, Text, TouchableOpacity, StyleSheet } from "react-native";
 import { useNavigation } from "@react-navigation/native";
 
-export default function Marcello() {
-    const navigation = useNavigation();
-
+export default function Pereira() {
+        const navigation = useNavigation();
+        
     return (
         <View style={styles.container}>
-            <TouchableOpacity onPress={() => navigation.navigate("Leme")}>
-                <Text style={styles.text}>Maxton Hall - O Mundo Entre Nós</Text>
+            <TouchableOpacity onPress={() => navigation.navigate("Carboni")}>
+                <Text style={styles.text}>Rick Dalton</Text>
             </TouchableOpacity>
         </View>
     );
@@ -19,7 +19,7 @@ const styles = StyleSheet.create({
         flex: 1,
         justifyContent: "center",
         alignItems: "center",
-        backgroundColor: "lightyellow",
+        backgroundColor: "lightblue",
     },
     text: {
         fontSize: 36,
